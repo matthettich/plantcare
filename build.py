@@ -333,8 +333,8 @@ out = f'''<!DOCTYPE html>
 <head>
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#e9e8e3">
-<link rel="icon" href="icons/icon-192.png">
-<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="icon" href="icons/icon-192.png?v=2">
+<link rel="apple-touch-icon" href="icons/icon-192.png?v=2">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Plant Care Guide</title>
