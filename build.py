@@ -80,7 +80,7 @@ chips_s = "".join(f'<button class="chip{" on" if k == "block" else ""}" data-f="
 
 signs = "".join(f"<li>{E(s)}</li>" for s in TIPS["signs"])
 qr = "".join(f'<div class="qp"><h4 class="mono">{l}</h4><p>{E(TIPS[k])}</p></div>' for l, k in
-             [("Dogs 🐕", "dogs"), ("Lights", "lights"), ("Soil", "soil"), ("New arrivals", "new_arrivals"), ("Root rot", "root_rot")])
+             [("Dogs 🐕", "dogs"), ("Cold damage", "cold_signs"), ("Lights", "lights"), ("Soil", "soil"), ("New arrivals", "new_arrivals"), ("Root rot", "root_rot")])
 n = len(d["plants"])
 
 CSS = r'''
