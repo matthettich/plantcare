@@ -37,7 +37,9 @@
    "rot": "Likes moisture",
    "photo": "mistletoe.jpg",
    "looks": "Thin, hanging pencil-like stems with no spines.",
-   "care": "A jungle cactus that needs the most water of anything you have. Water when the top half of the soil is dry. Strong light burns it. Mix some orchid bark into its soil."
+   "care": "A jungle cactus that needs the most water of anything you have. Water when the top half of the soil is dry. Strong light burns it. Mix some orchid bark into its soil.",
+   "window": "great",
+   "cold": "50"
   },
   {
    "id": "chalksticks",
@@ -50,7 +52,9 @@
    "photo": "chalksticks.jpg",
    "looks": "Blue-grey finger leaves pointing straight up.",
    "care": "Grows in winter and wrinkles when it's thirsty. It can go semi-dormant in hot summer, so water less if it stops growing.",
-   "toxic": "mild"
+   "toxic": "mild",
+   "window": "no",
+   "cold": "40"
   },
   {
    "id": "ripplejade",
@@ -64,7 +68,9 @@
    "photo": "ripplejade.jpg",
    "looks": "Wavy blue-grey leaves on a woody stem.",
    "care": "Easygoing. Water when the soil is dry, and its leaves get a red edge in strong light.",
-   "toxic": "mild"
+   "toxic": "mild",
+   "window": "great",
+   "cold": "40"
   },
   {
    "id": "coppertone",
@@ -76,7 +82,9 @@
    "rot": "Low",
    "photo": "coppertone.jpg",
    "looks": "Pointed leaves with copper-orange tips.",
-   "care": "The orange color comes from strong light. If it turns green and stretches, move it closer to the bars."
+   "care": "The orange color comes from strong light. If it turns green and stretches, move it closer to the bars.",
+   "window": "no",
+   "cold": "40"
   },
   {
    "id": "echeveria-green",
@@ -88,7 +96,9 @@
    "rot": "Medium",
    "photo": "echeveria_green.jpg",
    "looks": "Thick, sharp, pointed green rosette.",
-   "care": "Skip watering if the leaves still feel firm. Echeverias rot more easily than most of your plants. Use about a third pumice in the soil."
+   "care": "Skip watering if the leaves still feel firm. Echeverias rot more easily than most of your plants. Use about a third pumice in the soil.",
+   "window": "no",
+   "cold": "40"
   },
   {
    "id": "echeveria-red",
@@ -100,7 +110,9 @@
    "rot": "Medium",
    "photo": "echeveria_red.jpg",
    "looks": "Thick, sharp, pointed dark red rosette.",
-   "care": "Skip watering if the leaves still feel firm. Strong light keeps the deep red color."
+   "care": "Skip watering if the leaves still feel firm. Strong light keeps the deep red color.",
+   "window": "no",
+   "cold": "40"
   },
   {
    "id": "lola",
@@ -112,7 +124,9 @@
    "rot": "Medium",
    "photo": "lola.jpg",
    "looks": "Smooth, pale lavender-grey rosette.",
-   "care": "Skip watering if the leaves still feel firm. Don't touch the leaves, because the powdery coating rubs off."
+   "care": "Skip watering if the leaves still feel firm. Don't touch the leaves, because the powdery coating rubs off.",
+   "window": "no",
+   "cold": "40"
   },
   {
    "id": "pachyveria",
@@ -124,7 +138,9 @@
    "rot": "Medium",
    "photo": "pachyveria.jpg",
    "looks": "Chunky blue-grey leaves like fat fingers, in a loose rosette.",
-   "care": "Skip watering if the leaves still feel firm. Use about a third pumice in the soil."
+   "care": "Skip watering if the leaves still feel firm. Use about a third pumice in the soil.",
+   "window": "no",
+   "cold": "40"
   },
   {
    "id": "neon-breaker",
@@ -136,7 +152,9 @@
    "rot": "Medium",
    "photo": "neonbreaker.jpg",
    "looks": "Flat blue-green rosette with ruffled, pink-edged leaves.",
-   "care": "Its leaves are thinner than most Echeverias, so it drinks a little more. Give it a top spot under 2 strips, because strong light brings out the pink. You can separate the small pups at the base once they're about 1in across."
+   "care": "Its leaves are thinner than most Echeverias, so it drinks a little more. Give it a top spot under 2 strips, because strong light brings out the pink. You can separate the small pups at the base once they're about 1in across.",
+   "window": "no",
+   "cold": "40"
   },
   {
    "id": "carol-aloe-a",
@@ -150,7 +168,9 @@
    "photo": "aloe_a.jpg",
    "looks": "Spotted green leaves with red edges and bumps, growing low.",
    "care": "Water when the soil is fully dry. Strong light keeps the red spots bright. Light: very flexible. Under 2 strips at any distance, a skylight or a sunny window are all fine; brighter light gives stronger red color. Only dim spots (gooseneck, dark corners) are a problem: it stretches and fades. Ease it into a hot south or west window to avoid sunburn.",
-   "toxic": "mild"
+   "toxic": "mild",
+   "window": "ok",
+   "cold": "40"
   },
   {
    "id": "carol-aloe-b",
@@ -164,7 +184,9 @@
    "photo": "aloe_b.jpg",
    "looks": "Spiky, upright aloe with speckled leaves.",
    "care": "Water when the soil is fully dry. It may be the Purple People Eater aloe from Planet Desert. Light: very flexible. Under 2 strips at any distance, a skylight or a sunny window are all fine; brighter light gives stronger red color. Only dim spots (gooseneck, dark corners) are a problem: it stretches and fades. Ease it into a hot south or west window to avoid sunburn.",
-   "toxic": "mild"
+   "toxic": "mild",
+   "window": "ok",
+   "cold": "40"
   },
   {
    "id": "corncob",
@@ -177,7 +199,9 @@
    "photo": "corncob.jpg",
    "looks": "A single bumpy cream-and-green column, like a corn cob.",
    "care": "Its white sap irritates skin and eyes and is toxic to dogs. Use about 50% pumice in the soil.",
-   "toxic": "high"
+   "toxic": "high",
+   "window": "no",
+   "cold": "45"
   },
   {
    "id": "corncob2",
@@ -190,7 +214,9 @@
    "photo": "corncob2.jpg",
    "looks": "A clump of tall, bumpy cream-and-green columns.",
    "care": "Same care as the terracotta corn cob. If the columns lean toward the light, rotate the pot every week.",
-   "toxic": "high"
+   "toxic": "high",
+   "window": "no",
+   "cold": "45"
   },
   {
    "id": "spiralis",
@@ -202,7 +228,9 @@
    "rot": "High",
    "looks": "A ribbed column that twists in a spiral.",
    "care": "New from Planet Desert. Its sap is toxic to dogs. Use gritty soil.",
-   "toxic": "high"
+   "toxic": "high",
+   "window": "no",
+   "cold": "45"
   },
   {
    "id": "green-coral",
@@ -214,7 +242,9 @@
    "rot": "Medium",
    "looks": "A crested, fan-shaped mound of tiny green fingers.",
    "care": "New arrival. Crested forms rot if they stay wet, so water around the crest, not on it.",
-   "toxic": "high"
+   "toxic": "high",
+   "window": "no",
+   "cold": "45"
   },
   {
    "id": "enopla",
@@ -226,7 +256,9 @@
    "rot": "High",
    "looks": "A spiny column with bright red spines.",
    "care": "New arrival. Strong light keeps the spines red. Its sap is toxic to dogs.",
-   "toxic": "high"
+   "toxic": "high",
+   "window": "no",
+   "cold": "45"
   },
   {
    "id": "stenoclada",
@@ -238,7 +270,9 @@
    "rot": "Medium",
    "looks": "Branching silver-green stems, like coral.",
    "care": "New arrival. Tough and forgiving. Its sap is toxic to dogs.",
-   "toxic": "high"
+   "toxic": "high",
+   "window": "no",
+   "cold": "50"
   },
   {
    "id": "trigona",
@@ -251,7 +285,9 @@
    "rot": "Medium",
    "looks": "Tall, three-sided stems tinged red, with small leaves.",
    "care": "New arrival. It handles medium light well. Rotate it so it grows straight.",
-   "toxic": "high"
+   "toxic": "high",
+   "window": "great",
+   "cold": "50"
   },
   {
    "id": "coral-cactus",
@@ -264,7 +300,9 @@
    "rot": "Medium",
    "looks": "A wavy, crested fan, often grafted onto a stem.",
    "care": "New arrival. Give it medium light, at the edge of the bars or in the skylight room. Keep water off the crest.",
-   "toxic": "high"
+   "toxic": "high",
+   "window": "great",
+   "cold": "50"
   },
   {
    "id": "firesticks",
@@ -276,7 +314,9 @@
    "rot": "Medium",
    "looks": "Smooth pencil stems that turn orange-red.",
    "care": "New arrival. It only turns red in strong light. Its sap is especially irritating, so wear gloves when you handle it.",
-   "toxic": "high"
+   "toxic": "high",
+   "window": "no",
+   "cold": "50"
   },
   {
    "id": "hobbit",
@@ -289,7 +329,9 @@
    "rot": "Low",
    "looks": "Tube-shaped leaves with suction-cup-like tips.",
    "care": "New arrival. It's easy to grow, and its leaf tips turn red in strong light.",
-   "toxic": "mild"
+   "toxic": "mild",
+   "window": "great",
+   "cold": "40"
   },
   {
    "id": "monkeytail",
@@ -302,7 +344,9 @@
    "photo": "monkeytail.jpg",
    "looks": "A trailing stem covered in soft white hair.",
    "care": "Give it lots of light. The hairs are soft, but there are spines underneath.",
-   "toxic": "spines"
+   "toxic": "spines",
+   "window": "no",
+   "cold": "40"
   },
   {
    "id": "lifesaver",
@@ -315,7 +359,9 @@
    "rot": "High",
    "photo": "lifesaver.jpg",
    "looks": "Toothy green stems. Its flowers look like striped donuts.",
-   "care": "Too much light turns it red and stressed. It's the most rot-prone plant you have, so use about 50% pumice and keep it fairly dry in winter."
+   "care": "Too much light turns it red and stressed. It's the most rot-prone plant you have, so use about 50% pumice and keep it fairly dry in winter.",
+   "window": "great",
+   "cold": "50"
   },
   {
    "id": "inchworm",
@@ -328,7 +374,9 @@
    "photo": "inchworm.jpg",
    "looks": "Grey-green stems with dark stripes that arch over and root where they touch the soil.",
    "care": "It's recovering from root rot. Keep it dry for 1–2 weeks after repotting and in medium light until it re-roots, then move it under the bars. Keep it on the dry side in winter.",
-   "toxic": "mild"
+   "toxic": "mild",
+   "window": "no",
+   "cold": "50"
   },
   {
    "id": "washboard",
@@ -340,7 +388,9 @@
    "alt_light": "bars1",
    "rot": "Medium",
    "looks": "A small, stiff, dark green rosette with raised ridges across the leaves, like a washboard.",
-   "care": "It likes softer light than most of your plants, so the skylight room is ideal. Glazed pots dry slowly, so check the soil first. Water less in midsummer."
+   "care": "It likes softer light than most of your plants, so the skylight room is ideal. Glazed pots dry slowly, so check the soil first. Water less in midsummer.",
+   "window": "great",
+   "cold": "45"
   },
   {
    "id": "millotii",
@@ -353,7 +403,9 @@
    "rot": "Low",
    "looks": "Soft, fuzzy, pale green round leaves with scalloped edges.",
    "care": "Water the soil, not the fuzzy leaves. It's toxic to dogs. If it gets leggy, pinch the stem tips; the cuttings root easily.",
-   "toxic": "high"
+   "toxic": "high",
+   "window": "great",
+   "cold": "50"
   },
   {
    "id": "prickly-pears",
@@ -365,7 +417,9 @@
    "rot": "Low",
    "looks": "Flat, paddle-shaped pads.",
    "care": "Watch out for glochids, the tiny hair-like spines, and handle them with tongs or gloves. Water lightly in winter.",
-   "toxic": "spines"
+   "toxic": "spines",
+   "window": "no",
+   "cold": "40"
   },
   {
    "id": "thumb",
@@ -378,7 +432,9 @@
    "photo": "thumb.jpg",
    "looks": "A small, finger-shaped cactus.",
    "care": "Keep it mostly dry in winter. Use about 50% pumice in the soil.",
-   "toxic": "spines"
+   "toxic": "spines",
+   "window": "no",
+   "cold": "40"
   },
   {
    "id": "rebutia",
@@ -390,7 +446,9 @@
    "rot": "High",
    "looks": "A tiny ball covered in neat, comb-like silver spines.",
    "care": "Keep it dry through winter so it flowers in spring, and give it a light first watering in March.",
-   "toxic": "spines"
+   "toxic": "spines",
+   "window": "no",
+   "cold": "40"
   },
   {
    "id": "chin",
@@ -403,7 +461,9 @@
    "photo": "rubyball.jpg",
    "looks": "A small, dark green, ribbed ball with a bump under each spine cluster, like a chin.",
    "care": "It needs less light than most cacti: 1 strip at about 8in is ideal. Too much light turns it red-brown or bleached, so move it back if that happens; if it stretches, move it closer. Keep it nearly dry in winter.",
-   "toxic": "spines"
+   "toxic": "spines",
+   "window": "great",
+   "cold": "40"
   },
   {
    "id": "sampler",
@@ -415,7 +475,9 @@
    "rot": "High",
    "looks": "Mixed small cacti.",
    "care": "New arrivals. Wait about a week after potting before watering, then follow Block 3. Send photos to get each one identified.",
-   "toxic": "spines"
+   "toxic": "spines",
+   "window": "no",
+   "cold": "40"
   }
  ],
  "tips": {
@@ -432,5 +494,15 @@
   "new_arrivals": "Unbox right away and check for cold damage. Don't water on arrival. Repot into dry soil, wait about a week, then water on the plant's next block night.",
   "root_rot": "Cut back to firm tissue, let the cuts dry for a few days, repot into dry gritty mix, and wait 1–2 weeks before a light watering. Give it medium light until it re-roots.",
   "dogs": "Keep these up high: all Euphorbias (corn cobs, spiralis, Green Coral, enopla, stenoclada, African milk tree, Coral cactus, and especially Firesticks) and the Millot kalanchoe. Up high is also best for the aloes, jades, Blue chalksticks and Inchworm, which are mildly toxic and usually cause vomiting or drooling. The cacti aren't poisonous, but their spines and glochids hurt mouths and paws. Safe at floor level: the Echeverias, Lola, Pachyveria, Neon Breaker, Coppertone, Fairy washboard, Mistletoe cactus and Lifesaver. If a dog chews something, call your vet or the ASPCA Animal Poison Control line, (888) 426-4435."
+ },
+ "window_key": {
+  "great": "Great on the NE windowsill",
+  "ok": "OK on the NE sill (less color)",
+  "no": "Needs the light bars"
+ },
+ "cold_key": {
+  "40": "Cool-tolerant (to ~40°F)",
+  "45": "Keep above ~45°F",
+  "50": "Keep warm (above ~50°F)"
  }
 }
