@@ -13,6 +13,11 @@ def uri(fn):
     if not os.path.exists(p): return None
     return "data:image/jpeg;base64," + base64.b64encode(open(p, "rb").read()).decode()
 
+def illus_uri(pid):
+    p = os.path.join(HERE, "illus", pid + ".svg")
+    if not os.path.exists(p): return None
+    return "data:image/svg+xml;base64," + base64.b64encode(open(p, "rb").read()).decode()
+
 def initials(n):
     w = [x for x in n.replace("-", " ").split() if x[0].isalpha()]
     return (w[0][0] + (w[1][0] if len(w) > 1 else w[0][1] if len(w[0]) > 1 else "")).upper()
@@ -23,7 +28,8 @@ def placeholder(p):
 
 def card(p):
     b = str(p["block"]); u = uri(p.get("photo"))
-    img = (f'<img src="{u}" alt="{E(p["name"])}" loading="lazy">' if u else placeholder(p))
+    iu = None if u else illus_uri(p["id"])
+    img = (f'<img src="{u or iu}"{"" if u else ' class="ill"'} alt="{E(p["name"])}" loading="lazy">' if (u or iu) else placeholder(p))
     alt = p.get("alt_light")
     lights = [p["light"]] + ([alt] if alt else [])
     lt = f'<span class="badge light">{E(LK[p["light"]])}</span>'
@@ -32,7 +38,7 @@ def card(p):
     rc = {"Low": "low", "Medium": "med", "High": "high"}.get(rot, "moist")
     rl = f"Rot risk: {E(rot)}" if rot in ("Low", "Medium", "High") else E(rot)
     tox = {"high":'<span class="badge tox">🐕⚠️ Toxic to dogs: keep up high</span>',"mild":'<span class="badge tox mild">🐕 Mildly toxic to dogs</span>',"spines":'<span class="badge tox spn">🐕 Spines: keep away from dogs</span>'}.get(p.get("toxic"),"")
-    return f'''<article class="card b{b}" tabindex="0" role="button" aria-expanded="false" data-block="{b}" data-light="{' '.join(lights)}" data-search="{E((p["name"]+" "+p["latin"]+" "+p["looks"]+" "+p["care"]).lower())}">
+    return f'''<article class="card b{b}" tabindex="0" role="button" aria-expanded="false" data-block="{b}" data-dog="{p.get("toxic") or "safe"}" data-light="{' '.join(lights)}" data-search="{E((p["name"]+" "+p["latin"]+" "+p["looks"]+" "+p["care"]).lower())}">
 <div class="photo">{img}</div>
 <div class="body">
 <div class="top"><span class="badge blk b{b}">Block {b}</span><span class="mono pot">{E(p["pot"]) if "pot" in p["pot"] else E(p["pot"])+" pot"}</span></div>
@@ -57,6 +63,11 @@ chips_b = '<button class="chip on" data-f="block" data-v="all">All</button>' + "
     f'<button class="chip c{k}" data-f="block" data-v="{k}">Block {k}</button>' for k in BL)
 chips_l = '<button class="chip on" data-f="light" data-v="all">Any light</button>' + "".join(
     f'<button class="chip" data-f="light" data-v="{k}">{v}</button>' for k, v in LIGHT_SHORT.items())
+
+DOG = [("all", "Any"), ("safe", "Safe"), ("mild", "Mild"), ("high", "Toxic"), ("spines", "Spines")]
+chips_d = "".join(f'<button class="chip{" on" if k == "all" else ""}" data-f="dog" data-v="{k}">{v}</button>' for k, v in DOG)
+chips_s = ('<button class="chip on" data-f="sort" data-v="block">By block</button>'
+           '<button class="chip" data-f="sort" data-v="tox">Most toxic first</button>')
 
 signs = "".join(f"<li>{E(s)}</li>" for s in TIPS["signs"])
 qr = "".join(f'<div class="qp"><h4 class="mono">{l}</h4><p>{E(TIPS[k])}</p></div>' for l, k in
@@ -99,7 +110,7 @@ h2{font-size:1.3rem;margin:28px 0 10px;letter-spacing:-.01em}
 .card{background:var(--card);border:2px solid var(--ink);border-radius:var(--r);overflow:hidden;display:flex;cursor:pointer;box-shadow:inset 6px 0 0 var(--c)}
 .card[hidden]{display:none}
 .photo{width:110px;min-height:110px;flex:none;background:#e8e5d6}
-.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}.photo img.ill{object-fit:contain;padding:6px;background:#e9e8e3}
 .body{padding:12px 14px;min-width:0;flex:1}
 .top{display:flex;gap:8px;align-items:center;justify-content:space-between}
 .pot{color:var(--mut)}
@@ -131,6 +142,10 @@ h3{margin:6px 0 0;font-size:1.02rem;line-height:1.2;text-transform:uppercase;let
 .quick ul{padding-left:20px;margin:0}.quick li{margin:4px 0}.quick li::marker{color:var(--mag)}
 .qp h4{margin:16px 0 2px;color:var(--pur)}.qp p{margin:0}
 footer{padding:0 0 30px;color:var(--mut)}
+@media(max-width:699px){
+.filters{position:static}
+.chip{padding:6px 10px;font-size:.8rem}
+}
 @media(min-width:700px){
 .wrap{padding:0 24px}
 .blocks{grid-template-columns:repeat(3,1fr)}
@@ -158,17 +173,23 @@ body{background:#fff;font-size:10pt}
 
 JS = r'''
 (function(){
-var st={block:"all",light:"all",q:""};
+var st={block:"all",light:"all",dog:"all",sort:"block",q:""};
 var cards=[].slice.call(document.querySelectorAll(".card"));
+var grid=document.getElementById("grid"),RANK={high:0,mild:1,spines:2,safe:3};
+cards.forEach(function(c,i){c.dataset.i=i});
 var cnt=document.getElementById("count"),emp=document.getElementById("empty");
 function apply(){
  var n=0;
  cards.forEach(function(c){
   var ok=(st.block==="all"||c.dataset.block===st.block)&&
    (st.light==="all"||(" "+c.dataset.light+" ").indexOf(" "+st.light+" ")>-1)&&
+   (st.dog==="all"||c.dataset.dog===st.dog)&&
    (!st.q||c.dataset.search.indexOf(st.q)>-1);
   c.hidden=!ok; if(ok)n++;
  });
+ cards.slice().sort(function(a,b){
+  return (st.sort==="tox"?RANK[a.dataset.dog]-RANK[b.dataset.dog]:0)||a.dataset.i-b.dataset.i;
+ }).forEach(function(c){grid.appendChild(c)});
  cnt.textContent="Showing "+n+" of "+cards.length+" plants";
  emp.hidden=n>0;
 }
@@ -239,6 +260,8 @@ out = f'''<!DOCTYPE html>
 <div class="filters">
 <div class="row"><span class="mono">Block</span>{chips_b}</div>
 <div class="row"><span class="mono">Light</span>{chips_l}</div>
+<div class="row"><span class="mono">Dogs</span>{chips_d}</div>
+<div class="row"><span class="mono">Sort</span>{chips_s}</div>
 <div class="row"><input id="q" class="search" type="search" placeholder="Search plants, latin names, notes" aria-label="Search plants"></div>
 </div>
 <div class="count mono" id="count"></div>
