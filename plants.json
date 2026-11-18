@@ -39,7 +39,9 @@
    "looks": "Thin, hanging pencil-like stems with no spines.",
    "care": "A jungle cactus that needs the most water of anything you have. Water when the top half of the soil is dry. Strong light burns it. Mix some orchid bark into its soil.",
    "window": "great",
-   "cold": "50"
+   "cold": "50",
+   "temp_ideal": "60–85°F",
+   "temp_min": "50°F"
   },
   {
    "id": "chalksticks",
@@ -54,7 +56,9 @@
    "care": "Grows in winter and wrinkles when it's thirsty. It can go semi-dormant in hot summer, so water less if it stops growing.",
    "toxic": "mild",
    "window": "no",
-   "cold": "40"
+   "cold": "40",
+   "temp_ideal": "50–80°F",
+   "temp_min": "35°F"
   },
   {
    "id": "ripplejade",
@@ -70,7 +74,9 @@
    "care": "Easygoing. Water when the soil is dry, and its leaves get a red edge in strong light.",
    "toxic": "mild",
    "window": "great",
-   "cold": "40"
+   "cold": "40",
+   "temp_ideal": "55–85°F",
+   "temp_min": "40°F"
   },
   {
    "id": "coppertone",
@@ -84,7 +90,9 @@
    "looks": "Pointed leaves with copper-orange tips.",
    "care": "The orange color comes from strong light. If it turns green and stretches, move it closer to the bars.",
    "window": "no",
-   "cold": "40"
+   "cold": "40",
+   "temp_ideal": "50–85°F",
+   "temp_min": "35°F"
   },
   {
    "id": "echeveria-green",
@@ -98,7 +106,9 @@
    "looks": "Thick, sharp, pointed green rosette.",
    "care": "Skip watering if the leaves still feel firm. Echeverias rot more easily than most of your plants. Use about a third pumice in the soil.",
    "window": "no",
-   "cold": "40"
+   "cold": "40",
+   "temp_ideal": "55–85°F",
+   "temp_min": "40°F"
   },
   {
    "id": "echeveria-red",
@@ -112,7 +122,9 @@
    "looks": "Thick, sharp, pointed dark red rosette.",
    "care": "Skip watering if the leaves still feel firm. Strong light keeps the deep red color.",
    "window": "no",
-   "cold": "40"
+   "cold": "40",
+   "temp_ideal": "55–85°F",
+   "temp_min": "40°F"
   },
   {
    "id": "lola",
@@ -126,7 +138,9 @@
    "looks": "Smooth, pale lavender-grey rosette.",
    "care": "Skip watering if the leaves still feel firm. Don't touch the leaves, because the powdery coating rubs off.",
    "window": "no",
-   "cold": "40"
+   "cold": "40",
+   "temp_ideal": "55–85°F",
+   "temp_min": "40°F"
   },
   {
    "id": "pachyveria",
@@ -140,7 +154,9 @@
    "looks": "Chunky blue-grey leaves like fat fingers, in a loose rosette.",
    "care": "Skip watering if the leaves still feel firm. Use about a third pumice in the soil.",
    "window": "no",
-   "cold": "40"
+   "cold": "40",
+   "temp_ideal": "55–85°F",
+   "temp_min": "40°F"
   },
   {
    "id": "neon-breaker",
@@ -154,7 +170,9 @@
    "looks": "Flat blue-green rosette with ruffled, pink-edged leaves.",
    "care": "Its leaves are thinner than most Echeverias, so it drinks a little more. Give it a top spot under 2 strips, because strong light brings out the pink. You can separate the small pups at the base once they're about 1in across.",
    "window": "no",
-   "cold": "40"
+   "cold": "40",
+   "temp_ideal": "55–85°F",
+   "temp_min": "40°F"
   },
   {
    "id": "carol-aloe-a",
@@ -170,7 +188,9 @@
    "care": "Water when the soil is fully dry. Strong light keeps the red spots bright. Light: very flexible. Under 2 strips at any distance, a skylight or a sunny window are all fine; brighter light gives stronger red color. Only dim spots (gooseneck, dark corners) are a problem: it stretches and fades. Ease it into a hot south or west window to avoid sunburn.",
    "toxic": "mild",
    "window": "ok",
-   "cold": "40"
+   "cold": "40",
+   "temp_ideal": "55–85°F",
+   "temp_min": "40°F"
   },
   {
    "id": "carol-aloe-b",
@@ -186,7 +206,9 @@
    "care": "Water when the soil is fully dry. It may be the Purple People Eater aloe from Planet Desert. Light: very flexible. Under 2 strips at any distance, a skylight or a sunny window are all fine; brighter light gives stronger red color. Only dim spots (gooseneck, dark corners) are a problem: it stretches and fades. Ease it into a hot south or west window to avoid sunburn.",
    "toxic": "mild",
    "window": "ok",
-   "cold": "40"
+   "cold": "40",
+   "temp_ideal": "55–85°F",
+   "temp_min": "40°F"
   },
   {
    "id": "corncob",
@@ -201,7 +223,9 @@
    "care": "Its white sap irritates skin and eyes and is toxic to dogs. Use about 50% pumice in the soil.",
    "toxic": "high",
    "window": "no",
-   "cold": "45"
+   "cold": "45",
+   "temp_ideal": "60–90°F",
+   "temp_min": "45°F"
   },
   {
    "id": "corncob2",
@@ -216,7 +240,9 @@
    "care": "Same care as the terracotta corn cob. If the columns lean toward the light, rotate the pot every week.",
    "toxic": "high",
    "window": "no",
-   "cold": "45"
+   "cold": "45",
+   "temp_ideal": "60–90°F",
+   "temp_min": "45°F"
   },
   {
    "id": "spiralis",
@@ -230,7 +256,9 @@
    "care": "New from Planet Desert. Its sap is toxic to dogs. Use gritty soil.",
    "toxic": "high",
    "window": "no",
-   "cold": "45"
+   "cold": "45",
+   "temp_ideal": "60–90°F",
+   "temp_min": "45°F"
   },
   {
    "id": "green-coral",
@@ -244,7 +272,9 @@
    "care": "New arrival. Crested forms rot if they stay wet, so water around the crest, not on it.",
    "toxic": "high",
    "window": "no",
-   "cold": "45"
+   "cold": "45",
+   "temp_ideal": "60–90°F",
+   "temp_min": "45°F"
   },
   {
    "id": "enopla",
@@ -258,7 +288,9 @@
    "care": "New arrival. Strong light keeps the spines red. Its sap is toxic to dogs.",
    "toxic": "high",
    "window": "no",
-   "cold": "45"
+   "cold": "45",
+   "temp_ideal": "60–90°F",
+   "temp_min": "45°F"
   },
   {
    "id": "stenoclada",
@@ -272,7 +304,9 @@
    "care": "New arrival. Tough and forgiving. Its sap is toxic to dogs.",
    "toxic": "high",
    "window": "no",
-   "cold": "50"
+   "cold": "50",
+   "temp_ideal": "65–90°F",
+   "temp_min": "50°F"
   },
   {
    "id": "trigona",
@@ -287,7 +321,9 @@
    "care": "New arrival. It handles medium light well. Rotate it so it grows straight.",
    "toxic": "high",
    "window": "great",
-   "cold": "50"
+   "cold": "50",
+   "temp_ideal": "65–90°F",
+   "temp_min": "50°F"
   },
   {
    "id": "coral-cactus",
@@ -302,7 +338,9 @@
    "care": "New arrival. Give it medium light, at the edge of the bars or in the skylight room. Keep water off the crest.",
    "toxic": "high",
    "window": "great",
-   "cold": "50"
+   "cold": "50",
+   "temp_ideal": "65–90°F",
+   "temp_min": "50°F"
   },
   {
    "id": "firesticks",
@@ -316,7 +354,9 @@
    "care": "New arrival. It only turns red in strong light. Its sap is especially irritating, so wear gloves when you handle it.",
    "toxic": "high",
    "window": "no",
-   "cold": "50"
+   "cold": "50",
+   "temp_ideal": "65–95°F",
+   "temp_min": "50°F"
   },
   {
    "id": "hobbit",
@@ -331,7 +371,9 @@
    "care": "New arrival. It's easy to grow, and its leaf tips turn red in strong light.",
    "toxic": "mild",
    "window": "great",
-   "cold": "40"
+   "cold": "40",
+   "temp_ideal": "55–85°F",
+   "temp_min": "40°F"
   },
   {
    "id": "monkeytail",
@@ -346,7 +388,9 @@
    "care": "Give it lots of light. The hairs are soft, but there are spines underneath.",
    "toxic": "spines",
    "window": "no",
-   "cold": "40"
+   "cold": "40",
+   "temp_ideal": "55–90°F",
+   "temp_min": "40°F"
   },
   {
    "id": "lifesaver",
@@ -361,7 +405,9 @@
    "looks": "Toothy green stems. Its flowers look like striped donuts.",
    "care": "Too much light turns it red and stressed. It's the most rot-prone plant you have, so use about 50% pumice and keep it fairly dry in winter.",
    "window": "great",
-   "cold": "50"
+   "cold": "50",
+   "temp_ideal": "60–85°F",
+   "temp_min": "50°F"
   },
   {
    "id": "inchworm",
@@ -376,7 +422,9 @@
    "care": "It's recovering from root rot. Keep it dry for 1–2 weeks after repotting and in medium light until it re-roots, then move it under the bars. Keep it on the dry side in winter.",
    "toxic": "mild",
    "window": "no",
-   "cold": "50"
+   "cold": "50",
+   "temp_ideal": "60–90°F",
+   "temp_min": "50°F"
   },
   {
    "id": "washboard",
@@ -390,7 +438,9 @@
    "looks": "A small, stiff, dark green rosette with raised ridges across the leaves, like a washboard.",
    "care": "It likes softer light than most of your plants, so the skylight room is ideal. Glazed pots dry slowly, so check the soil first. Water less in midsummer.",
    "window": "great",
-   "cold": "45"
+   "cold": "45",
+   "temp_ideal": "60–85°F",
+   "temp_min": "45°F"
   },
   {
    "id": "millotii",
@@ -405,7 +455,9 @@
    "care": "Water the soil, not the fuzzy leaves. It's toxic to dogs. If it gets leggy, pinch the stem tips; the cuttings root easily.",
    "toxic": "high",
    "window": "great",
-   "cold": "50"
+   "cold": "50",
+   "temp_ideal": "60–85°F",
+   "temp_min": "50°F"
   },
   {
    "id": "prickly-pears",
@@ -419,7 +471,9 @@
    "care": "Watch out for glochids, the tiny hair-like spines, and handle them with tongs or gloves. Water lightly in winter.",
    "toxic": "spines",
    "window": "no",
-   "cold": "40"
+   "cold": "40",
+   "temp_ideal": "50–95°F",
+   "temp_min": "35°F (some much colder if dry)"
   },
   {
    "id": "thumb",
@@ -434,7 +488,9 @@
    "care": "Keep it mostly dry in winter. Use about 50% pumice in the soil.",
    "toxic": "spines",
    "window": "no",
-   "cold": "40"
+   "cold": "40",
+   "temp_ideal": "50–90°F",
+   "temp_min": "40°F"
   },
   {
    "id": "rebutia",
@@ -448,7 +504,9 @@
    "care": "Keep it dry through winter so it flowers in spring, and give it a light first watering in March.",
    "toxic": "spines",
    "window": "no",
-   "cold": "40"
+   "cold": "40",
+   "temp_ideal": "50–85°F",
+   "temp_min": "35°F; likes 40–50°F in winter"
   },
   {
    "id": "chin",
@@ -463,7 +521,9 @@
    "care": "It needs less light than most cacti: 1 strip at about 8in is ideal. Too much light turns it red-brown or bleached, so move it back if that happens; if it stretches, move it closer. Keep it nearly dry in winter.",
    "toxic": "spines",
    "window": "great",
-   "cold": "40"
+   "cold": "40",
+   "temp_ideal": "55–85°F",
+   "temp_min": "40°F"
   },
   {
    "id": "sampler",
@@ -477,7 +537,9 @@
    "care": "New arrivals. Wait about a week after potting before watering, then follow Block 3. Send photos to get each one identified.",
    "toxic": "spines",
    "window": "no",
-   "cold": "40"
+   "cold": "40",
+   "temp_ideal": "50–90°F",
+   "temp_min": "40°F (varies)"
   }
  ],
  "tips": {

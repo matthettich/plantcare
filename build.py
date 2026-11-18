@@ -47,7 +47,7 @@ def card(p):
 <p class="latin">{E(p["latin"])}</p>
 <div class="badges">{lt}<span class="badge rot {rc}">{rl}</span>{tox}</div>
 <div class="more">
-<h4 class="mono">Windowsill &amp; cold</h4><div class="badges"><span class="badge win w-{p["window"]}">{E(WK[p["window"]])}</span><span class="badge cold k-{p["cold"]}">{E(CK[p["cold"]])}</span></div>
+<h4 class="mono">Windowsill &amp; cold</h4><div class="badges"><span class="badge win w-{p["window"]}">{E(WK[p["window"]])}</span><span class="badge cold k-{p["cold"]}">{E(CK[p["cold"]])}</span></div><p class="temp"><b>Temperature:</b> best {E(p["temp_ideal"])} · minimum {E(p["temp_min"])} (with dry soil)</p>
 <h4 class="mono">How to spot it</h4><p>{E(p["looks"])}</p>
 <h4 class="mono">Care</h4><p>{E(p["care"])}</p>
 </div>
@@ -154,7 +154,7 @@ h3{margin:6px 0 0;font-size:1.02rem;line-height:1.2;text-transform:uppercase;let
 .ph .s2{width:40%;height:40%;border-radius:22%;right:8%;top:10%;background:rgba(0,0,0,.15)}
 .ph .s3{width:30%;height:12%;border-radius:99px;right:-5%;bottom:15%}
 .ph b{position:absolute;inset:0;display:grid;place-items:center;font:700 clamp(1.6rem,8vw,3rem) "JetBrains Mono",monospace;color:var(--cink);letter-spacing:-.04em}
-.install{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:12px}.install .mono{color:var(--mut);text-transform:none;letter-spacing:0}.empty{padding:30px;text-align:center;color:var(--mut)}
+.install{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:12px}.install .mono{color:var(--mut);text-transform:none;letter-spacing:0}.temp{margin:8px 0 0;font-size:.9rem}.empty{padding:30px;text-align:center;color:var(--mut)}
 .quick{margin:36px 0 40px;background:#fff;border:2px solid var(--ink);border-radius:var(--r);padding:6px 18px 18px;box-shadow:none}
 .quick h2{margin-top:14px}
 .quick ul{padding-left:20px;margin:0}.quick li{margin:4px 0}.quick li::marker{color:var(--mag)}
