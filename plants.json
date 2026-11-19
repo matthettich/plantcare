@@ -660,6 +660,23 @@
    "temp_min": "0°F or colder (hardy if dry)",
    "looks": "A short, spiny green column with dense grey-and-brown spines. It forms clumps over time.",
    "care": "A New Mexico native and the most cold-hardy plant you own. It flowers bright red in spring if it gets a cold, dry winter and strong light."
+  },
+  {
+   "id": "goldenmamm",
+   "name": "Golden-spined cactus (ID unconfirmed)",
+   "latin": "Probably a Mammillaria",
+   "block": 3,
+   "pot": "2in",
+   "light": "bars2",
+   "rot": "High",
+   "toxic": "spines",
+   "window": "no",
+   "cold": "40",
+   "temp_ideal": "50–90°F",
+   "temp_min": "40°F",
+   "photo": "goldenmamm.jpg",
+   "looks": "A bright green ball of spiraling bumps (no ribs), each tipped with a star of golden-yellow spines and a little white wool.",
+   "care": "The 9th cactus from the Planet Desert box. Until it's identified, treat it like your other Mammillarias: strong light, gritty soil, and a cool, dry winter. Snap it in PictureThis to get a name."
   }
  ],
  "tips": {
