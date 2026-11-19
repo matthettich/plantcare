@@ -47,7 +47,7 @@ def card(p):
 <p class="latin">{E(p["latin"])}</p>
 <div class="badges">{lt}<span class="badge rot {rc}">{rl}</span>{tox}</div>
 <div class="more">
-<h4 class="mono">Windowsill &amp; cold</h4><div class="badges"><span class="badge win w-{p["window"]}">{E(WK[p["window"]])}</span><span class="badge cold k-{p["cold"]}">{E(CK[p["cold"]])}</span></div><p class="temp"><b>Temperature:</b> best {E(p["temp_ideal"])} · minimum {E(p["temp_min"])} (with dry soil)</p>
+<h4 class="mono">When it's thirsty</h4><p class="temp">{E(p["thirsty"])}</p><h4 class="mono">Windowsill &amp; cold</h4><div class="badges"><span class="badge win w-{p["window"]}">{E(WK[p["window"]])}</span><span class="badge cold k-{p["cold"]}">{E(CK[p["cold"]])}</span></div><p class="temp"><b>Temperature:</b> best {E(p["temp_ideal"])} · minimum {E(p["temp_min"])} (with dry soil)</p>
 <h4 class="mono">How to spot it</h4><p>{E(p["looks"])}</p>
 <h4 class="mono">Care</h4><p>{E(p["care"])}</p>
 </div>
@@ -80,7 +80,7 @@ chips_s = "".join(f'<button class="chip{" on" if k == "block" else ""}" data-f="
 
 signs = "".join(f"<li>{E(s)}</li>" for s in TIPS["signs"])
 qr = "".join(f'<div class="qp"><h4 class="mono">{l}</h4><p>{E(TIPS[k])}</p></div>' for l, k in
-             [("Dogs 🐕", "dogs"), ("Cold damage", "cold_signs"), ("Pests", "pests"), ("Lights", "lights"), ("Soil", "soil"), ("New arrivals", "new_arrivals"), ("Root rot", "root_rot")])
+             [("Dogs 🐕", "dogs"), ("Cold damage", "cold_signs"), ("Pests", "pests"), ("Thirsty or overwatered?", "thirsty_note"), ("Lights", "lights"), ("Soil", "soil"), ("New arrivals", "new_arrivals"), ("Root rot", "root_rot")])
 n = len(d["plants"])
 
 CSS = r'''

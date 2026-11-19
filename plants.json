@@ -41,7 +41,8 @@
    "window": "great",
    "cold": "50",
    "temp_ideal": "60–85°F",
-   "temp_min": "50°F"
+   "temp_min": "50°F",
+   "thirsty": "Stems look thin, dull or limp, and may wrinkle lengthwise. Healthy stems are plump and springy."
   },
   {
    "id": "chalksticks",
@@ -58,7 +59,8 @@
    "window": "no",
    "cold": "40",
    "temp_ideal": "50–80°F",
-   "temp_min": "35°F"
+   "temp_min": "35°F",
+   "thirsty": "Its 'fingers' wrinkle lengthwise and lose their plumpness, and the blue color gets duller."
   },
   {
    "id": "ripplejade",
@@ -76,7 +78,8 @@
    "window": "great",
    "cold": "40",
    "temp_ideal": "55–85°F",
-   "temp_min": "40°F"
+   "temp_min": "40°F",
+   "thirsty": "Leaves feel soft and wrinkle a little, especially the older ones, and may droop slightly."
   },
   {
    "id": "coppertone",
@@ -92,7 +95,8 @@
    "window": "no",
    "cold": "40",
    "temp_ideal": "50–85°F",
-   "temp_min": "35°F"
+   "temp_min": "35°F",
+   "thirsty": "Leaves feel soft and slightly shriveled, and the copper tips may look dull."
   },
   {
    "id": "echeveria-green",
@@ -108,7 +112,8 @@
    "window": "no",
    "cold": "40",
    "temp_ideal": "55–85°F",
-   "temp_min": "40°F"
+   "temp_min": "40°F",
+   "thirsty": "Leaves feel soft and slightly bendy instead of firm. The lower leaves wrinkle or deflate, and the rosette may close up a bit."
   },
   {
    "id": "echeveria-red",
@@ -124,7 +129,8 @@
    "window": "no",
    "cold": "40",
    "temp_ideal": "55–85°F",
-   "temp_min": "40°F"
+   "temp_min": "40°F",
+   "thirsty": "Leaves feel soft and slightly bendy instead of firm. The lower leaves wrinkle or deflate, and the rosette may close up a bit."
   },
   {
    "id": "lola",
@@ -140,7 +146,8 @@
    "window": "no",
    "cold": "40",
    "temp_ideal": "55–85°F",
-   "temp_min": "40°F"
+   "temp_min": "40°F",
+   "thirsty": "Leaves feel soft and slightly bendy instead of firm. The lower leaves wrinkle or deflate, and the rosette may close up a bit."
   },
   {
    "id": "pachyveria",
@@ -156,7 +163,8 @@
    "window": "no",
    "cold": "40",
    "temp_ideal": "55–85°F",
-   "temp_min": "40°F"
+   "temp_min": "40°F",
+   "thirsty": "Leaves feel soft and slightly bendy instead of firm. The lower leaves wrinkle or deflate, and the rosette may close up a bit."
   },
   {
    "id": "neon-breaker",
@@ -172,7 +180,8 @@
    "window": "no",
    "cold": "40",
    "temp_ideal": "55–85°F",
-   "temp_min": "40°F"
+   "temp_min": "40°F",
+   "thirsty": "Leaves feel soft and slightly bendy instead of firm. The lower leaves wrinkle or deflate, and the rosette may close up a bit."
   },
   {
    "id": "carol-aloe-a",
@@ -190,7 +199,8 @@
    "window": "ok",
    "cold": "40",
    "temp_ideal": "55–85°F",
-   "temp_min": "40°F"
+   "temp_min": "40°F",
+   "thirsty": "Leaves thin out, curl inward and may wrinkle or feel soft. The tips can turn brown and crispy."
   },
   {
    "id": "carol-aloe-b",
@@ -208,7 +218,8 @@
    "window": "ok",
    "cold": "40",
    "temp_ideal": "55–85°F",
-   "temp_min": "40°F"
+   "temp_min": "40°F",
+   "thirsty": "Leaves thin out, curl inward and may wrinkle or feel soft. The tips can turn brown and crispy."
   },
   {
    "id": "corncob",
@@ -225,7 +236,8 @@
    "window": "no",
    "cold": "45",
    "temp_ideal": "60–90°F",
-   "temp_min": "45°F"
+   "temp_min": "45°F",
+   "thirsty": "The column looks slightly shrunken or wrinkled between the bumps or ribs, and it feels less firm."
   },
   {
    "id": "corncob2",
@@ -242,7 +254,8 @@
    "window": "no",
    "cold": "45",
    "temp_ideal": "60–90°F",
-   "temp_min": "45°F"
+   "temp_min": "45°F",
+   "thirsty": "The column looks slightly shrunken or wrinkled between the bumps or ribs, and it feels less firm."
   },
   {
    "id": "spiralis",
@@ -258,7 +271,8 @@
    "window": "no",
    "cold": "45",
    "temp_ideal": "60–90°F",
-   "temp_min": "45°F"
+   "temp_min": "45°F",
+   "thirsty": "The column looks slightly shrunken or wrinkled between the bumps or ribs, and it feels less firm."
   },
   {
    "id": "green-coral",
@@ -274,7 +288,8 @@
    "window": "no",
    "cold": "45",
    "temp_ideal": "60–90°F",
-   "temp_min": "45°F"
+   "temp_min": "45°F",
+   "thirsty": "The crest looks thinner, softer and slightly wrinkled. Water around it, not on it."
   },
   {
    "id": "enopla",
@@ -290,7 +305,8 @@
    "window": "no",
    "cold": "45",
    "temp_ideal": "60–90°F",
-   "temp_min": "45°F"
+   "temp_min": "45°F",
+   "thirsty": "The column looks slightly shrunken or wrinkled between the bumps or ribs, and it feels less firm."
   },
   {
    "id": "stenoclada",
@@ -306,7 +322,8 @@
    "window": "no",
    "cold": "50",
    "temp_ideal": "65–90°F",
-   "temp_min": "50°F"
+   "temp_min": "50°F",
+   "thirsty": "Stems look skinnier and slightly wrinkled. Thirsty plants may drop their small leaves."
   },
   {
    "id": "trigona",
@@ -323,7 +340,8 @@
    "window": "great",
    "cold": "50",
    "temp_ideal": "65–90°F",
-   "temp_min": "50°F"
+   "temp_min": "50°F",
+   "thirsty": "Leaves droop or drop, and the three-sided stems look a little wrinkled or soft."
   },
   {
    "id": "coral-cactus",
@@ -340,7 +358,8 @@
    "window": "great",
    "cold": "50",
    "temp_ideal": "65–90°F",
-   "temp_min": "50°F"
+   "temp_min": "50°F",
+   "thirsty": "The crest looks thinner, softer and slightly wrinkled. Water around it, not on it."
   },
   {
    "id": "firesticks",
@@ -356,7 +375,8 @@
    "window": "no",
    "cold": "50",
    "temp_ideal": "65–95°F",
-   "temp_min": "50°F"
+   "temp_min": "50°F",
+   "thirsty": "Stems look skinnier and slightly wrinkled. Thirsty plants may drop their small leaves."
   },
   {
    "id": "hobbit",
@@ -373,7 +393,8 @@
    "window": "great",
    "cold": "40",
    "temp_ideal": "55–85°F",
-   "temp_min": "40°F"
+   "temp_min": "40°F",
+   "thirsty": "Leaves feel soft and wrinkle a little, especially the older ones, and may droop slightly."
   },
   {
    "id": "monkeytail",
@@ -390,7 +411,8 @@
    "window": "no",
    "cold": "40",
    "temp_ideal": "55–90°F",
-   "temp_min": "40°F"
+   "temp_min": "40°F",
+   "thirsty": "The stem looks slightly shrunken or wrinkled near the base and feels less firm."
   },
   {
    "id": "lifesaver",
@@ -407,7 +429,8 @@
    "window": "great",
    "cold": "50",
    "temp_ideal": "60–85°F",
-   "temp_min": "50°F"
+   "temp_min": "50°F",
+   "thirsty": "Stems wrinkle and look a little deflated or soft. Firm, plump stems are well-watered."
   },
   {
    "id": "inchworm",
@@ -424,7 +447,8 @@
    "window": "no",
    "cold": "50",
    "temp_ideal": "60–90°F",
-   "temp_min": "50°F"
+   "temp_min": "50°F",
+   "thirsty": "Stems wrinkle and look a little deflated or soft. Firm, plump stems are well-watered."
   },
   {
    "id": "washboard",
@@ -440,7 +464,8 @@
    "window": "great",
    "cold": "45",
    "temp_ideal": "60–85°F",
-   "temp_min": "45°F"
+   "temp_min": "45°F",
+   "thirsty": "Leaves thin, curl inward and lose their plumpness, and the leaf tips may brown."
   },
   {
    "id": "millotii",
@@ -457,7 +482,8 @@
    "window": "great",
    "cold": "50",
    "temp_ideal": "60–85°F",
-   "temp_min": "50°F"
+   "temp_min": "50°F",
+   "thirsty": "Fuzzy leaves feel soft and floppy and may curl, and the plant can droop."
   },
   {
    "id": "prickly-pears",
@@ -473,7 +499,8 @@
    "window": "no",
    "cold": "40",
    "temp_ideal": "50–95°F",
-   "temp_min": "35°F (some much colder if dry)"
+   "temp_min": "35°F (some much colder if dry)",
+   "thirsty": "The pads wrinkle, look thinner and may lean or sag."
   },
   {
    "id": "thumb",
@@ -490,7 +517,8 @@
    "window": "no",
    "cold": "40",
    "temp_ideal": "50–90°F",
-   "temp_min": "40°F"
+   "temp_min": "40°F",
+   "thirsty": "The body shrinks and looks slightly wrinkled or puckered, and the ribs or bumps look deeper. It feels softer when you squeeze it gently."
   },
   {
    "id": "rebutia",
@@ -506,7 +534,8 @@
    "window": "no",
    "cold": "40",
    "temp_ideal": "50–85°F",
-   "temp_min": "35°F; likes 40–50°F in winter"
+   "temp_min": "35°F; likes 40–50°F in winter",
+   "thirsty": "The body shrinks and looks slightly wrinkled or puckered, and the ribs or bumps look deeper. It feels softer when you squeeze it gently."
   },
   {
    "id": "chin",
@@ -523,7 +552,8 @@
    "window": "great",
    "cold": "40",
    "temp_ideal": "55–85°F",
-   "temp_min": "40°F"
+   "temp_min": "40°F",
+   "thirsty": "The body shrinks and looks slightly wrinkled or puckered, and the ribs or bumps look deeper. It feels softer when you squeeze it gently."
   },
   {
    "block": 3,
@@ -540,7 +570,8 @@
    "temp_ideal": "50–90°F",
    "temp_min": "40°F",
    "looks": "A pale green ball covered in neat angular bumps with short spines. It clusters into a big mound over time, which is how it got its name.",
-   "care": "One of the easiest. It flowers pink in spring after a cool, dry winter."
+   "care": "One of the easiest. It flowers pink in spring after a cool, dry winter.",
+   "thirsty": "The body shrinks and looks slightly wrinkled or puckered, and the ribs or bumps look deeper. It feels softer when you squeeze it gently."
   },
   {
    "block": 3,
@@ -557,7 +588,8 @@
    "temp_ideal": "55–85°F",
    "temp_min": "40°F",
    "looks": "A dark green, ribbed ball with pale spine clusters and chin-like bumps. It's the second one, from the sampler box.",
-   "care": "Same care as your other Ruby Ball: 1 strip at about 8in, and nearly dry in winter. Too much light turns it red-brown."
+   "care": "Same care as your other Ruby Ball: 1 strip at about 8in, and nearly dry in winter. Too much light turns it red-brown.",
+   "thirsty": "The body shrinks and looks slightly wrinkled or puckered, and the ribs or bumps look deeper. It feels softer when you squeeze it gently."
   },
   {
    "block": 3,
@@ -574,7 +606,8 @@
    "temp_ideal": "50–85°F",
    "temp_min": "40°F",
    "looks": "A dark green, flattened ball with bumpy ribs and curved, pale spines.",
-   "care": "Big yellow flowers in spring. Keep it dry in winter, and it likes the strongest light."
+   "care": "Big yellow flowers in spring. Keep it dry in winter, and it likes the strongest light.",
+   "thirsty": "The body shrinks and looks slightly wrinkled or puckered, and the ribs or bumps look deeper. It feels softer when you squeeze it gently."
   },
   {
    "block": 3,
@@ -591,7 +624,8 @@
    "temp_ideal": "50–95°F",
    "temp_min": "20°F (hardy if dry)",
    "looks": "A low, dark green dome with a few broad ribs and very stiff, thick spines, some curved down.",
-   "care": "Its spines are seriously stiff, so keep it well away from paws and noses. Give it full light and very little water in winter. It's native to Texas and New Mexico."
+   "care": "Its spines are seriously stiff, so keep it well away from paws and noses. Give it full light and very little water in winter. It's native to Texas and New Mexico.",
+   "thirsty": "The body shrinks and looks slightly wrinkled or puckered, and the ribs or bumps look deeper. It feels softer when you squeeze it gently."
   },
   {
    "block": 3,
@@ -608,7 +642,8 @@
    "temp_ideal": "50–90°F",
    "temp_min": "25°F (hardy if dry)",
    "looks": "A small ball covered in long, hooked, fishhook-like spines.",
-   "care": "The fussiest cactus you have. It rots easily, so use very gritty soil (at least 50% pumice) and water sparingly, even in summer. Skip watering if there's any doubt."
+   "care": "The fussiest cactus you have. It rots easily, so use very gritty soil (at least 50% pumice) and water sparingly, even in summer. Skip watering if there's any doubt.",
+   "thirsty": "The body shrinks and looks slightly wrinkled or puckered, and the ribs or bumps look deeper. It feels softer when you squeeze it gently."
   },
   {
    "block": 3,
@@ -625,7 +660,8 @@
    "temp_ideal": "50–85°F",
    "temp_min": "40°F",
    "looks": "A ball densely covered in fine, golden-white hair-like spines, often tilting toward the light.",
-   "care": "Flowers in late winter or early spring after a cool, dry rest. Rotate it so it doesn't lean."
+   "care": "Flowers in late winter or early spring after a cool, dry rest. Rotate it so it doesn't lean.",
+   "thirsty": "The body shrinks and looks slightly wrinkled or puckered, and the ribs or bumps look deeper. It feels softer when you squeeze it gently."
   },
   {
    "block": 3,
@@ -642,7 +678,8 @@
    "temp_ideal": "55–85°F",
    "temp_min": "45°F",
    "looks": "A dark green, ribbed column-like ball with chin bumps and long pale spines. Yours has a pup growing on top.",
-   "care": "Give it medium light, like the Ruby Balls. You can remove the pup once it's about a third of the parent's size; let it dry a few days, then pot it up."
+   "care": "Give it medium light, like the Ruby Balls. You can remove the pup once it's about a third of the parent's size; let it dry a few days, then pot it up.",
+   "thirsty": "The body shrinks and looks slightly wrinkled or puckered, and the ribs or bumps look deeper. It feels softer when you squeeze it gently."
   },
   {
    "block": 3,
@@ -659,7 +696,8 @@
    "temp_ideal": "40–95°F",
    "temp_min": "0°F or colder (hardy if dry)",
    "looks": "A short, spiny green column with dense grey-and-brown spines. It forms clumps over time.",
-   "care": "A New Mexico native and the most cold-hardy plant you own. It flowers bright red in spring if it gets a cold, dry winter and strong light."
+   "care": "A New Mexico native and the most cold-hardy plant you own. It flowers bright red in spring if it gets a cold, dry winter and strong light.",
+   "thirsty": "The stem looks slightly shrunken or wrinkled near the base and feels less firm."
   },
   {
    "id": "goldenmamm",
@@ -676,7 +714,8 @@
    "temp_min": "40°F",
    "photo": "goldenmamm.jpg",
    "looks": "A bright green ball of spiraling bumps (no ribs), each with a star of golden-yellow spines and a little white wool. New spines often come in reddish, which gives the 'rainbow' bands.",
-   "care": "From the Planet Desert 9-pack. Easy. Give it strong light, gritty soil and a cool, dry winter, and it rewards you with a ring of magenta flowers around the top in spring."
+   "care": "From the Planet Desert 9-pack. Easy. Give it strong light, gritty soil and a cool, dry winter, and it rewards you with a ring of magenta flowers around the top in spring.",
+   "thirsty": "The body shrinks and looks slightly wrinkled or puckered, and the ribs or bumps look deeper. It feels softer when you squeeze it gently."
   }
  ],
  "tips": {
@@ -694,7 +733,8 @@
   "root_rot": "Cut back to firm tissue, let the cuts dry for a few days, repot into dry gritty mix, and wait 1–2 weeks before a light watering. Give it medium light until it re-roots.",
   "dogs": "Keep these up high: all Euphorbias (corn cobs, spiralis, Green Coral, enopla, stenoclada, African milk tree, Coral cactus, and especially Firesticks) and the Millot kalanchoe. Up high is also best for the aloes, jades, Blue chalksticks and Inchworm, which are mildly toxic and usually cause vomiting or drooling. The cacti aren't poisonous, but their spines and glochids hurt mouths and paws. Safe at floor level: the Echeverias, Lola, Pachyveria, Neon Breaker, Coppertone, Fairy washboard, Mistletoe cactus and Lifesaver. If a dog chews something, call your vet or the ASPCA Animal Poison Control line, (888) 426-4435.",
   "cold_signs": "Mild cold stress: red, purple or bronze tint, or slight shriveling, which is harmless. Cold damage: glassy, translucent or water-soaked spots, usually on the side facing the window or at the tips and new growth. These go soft and mushy, then brown or black, or later dry into tan, corky scars. Check by pressing gently: firm is fine, soft means damage. If you see damage, move the plant somewhere warmer, keep it dry and wait a few days to see how far it spreads. Then cut out any mushy tissue back to firm, clean flesh and let it dry. A cheap min/max thermometer on the sill shows how cold it really gets at night.",
-  "pests": "Mealybugs look like white cotton tufts in crevices, spine clusters and at the base. Dab each one with a cotton swab dipped in 70% isopropyl alcohol, or mist the plant with alcohol (or alcohol mixed 1:1 with water and a drop of dish soap). Test a small spot first, and keep the plant out of strong light for a day afterward. Repeat every 5 to 7 days for about 4 weeks, because eggs keep hatching. Isolate the plant while you treat it. If it keeps coming back, unpot it and check the roots for white fuzz (root mealybugs), then rinse them and repot in fresh dry soil."
+  "pests": "Mealybugs look like white cotton tufts in crevices, spine clusters and at the base. Dab each one with a cotton swab dipped in 70% isopropyl alcohol, or mist the plant with alcohol (or alcohol mixed 1:1 with water and a drop of dish soap). Test a small spot first, and keep the plant out of strong light for a day afterward. Repeat every 5 to 7 days for about 4 weeks, because eggs keep hatching. Isolate the plant while you treat it. If it keeps coming back, unpot it and check the roots for white fuzz (root mealybugs), then rinse them and repot in fresh dry soil.",
+  "thirsty_note": "Thirst signs are a nudge, not an emergency: water at the next block night, or sooner if it's bad. Mushy, translucent or yellowing parts mean the opposite, too much water, so stop watering and let the plant dry out."
  },
  "window_key": {
   "great": "Great on the NE windowsill",
