@@ -2,19 +2,19 @@
  "blocks": {
   "1": {
    "name": "Block 1 · Small pots",
-   "time": "Saturday 8:00pm",
+   "time": "Sunday 8:00pm",
    "winter": "Every 2 weeks",
    "growing": "Weekly"
   },
   "2": {
    "name": "Block 2 · Aloes, Euphorbias & big pots",
-   "time": "Saturday 8:30pm, alternating with Block 3",
+   "time": "Sunday 8:30pm, alternating with Block 3",
    "winter": "Every 4 weeks",
    "growing": "Every 2 weeks"
   },
   "3": {
    "name": "Block 3 · Prickly pears & cacti",
-   "time": "Saturday 8:30pm, alternating with Block 2",
+   "time": "Sunday 8:30pm, alternating with Block 2",
    "winter": "Every 4 weeks",
    "growing": "Every 2 weeks"
   }
