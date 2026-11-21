@@ -184,6 +184,23 @@
    "thirsty": "Leaves feel soft and slightly bendy instead of firm. The lower leaves wrinkle or deflate, and the rosette may close up a bit."
   },
   {
+   "id": "peacock",
+   "name": "Peacock echeveria",
+   "latin": "Echeveria peacockii (E. desmetiana)",
+   "block": 1,
+   "pot": "2in",
+   "light": "bars2",
+   "rot": "Medium",
+   "window": "no",
+   "cold": "40",
+   "temp_ideal": "55–85°F",
+   "temp_min": "40°F",
+   "photo": "peacock.jpg",
+   "looks": "A powdery blue-grey rosette of flat, pointed leaves, often with pink-red tips and edges in strong light.",
+   "care": "Classic Echeveria care: strong light under 2 strips keeps it compact and brings out the pink edges. Skip watering if the leaves still feel firm. Don't touch the leaves, because the powdery coating rubs off and doesn't grow back.",
+   "thirsty": "Leaves feel soft and slightly bendy instead of firm. The lower leaves wrinkle or deflate, and the rosette may close up a bit."
+  },
+  {
    "id": "carol-aloe-a",
    "name": "Christmas carol aloe A",
    "latin": "Aloe 'Christmas Carol' (possibly Aloe castilloniae)",
